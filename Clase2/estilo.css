@@ -1,0 +1,28 @@
+h1{
+    color: goldenrod;
+}
+
+fieldset{
+    border: double 4px red;
+    padding: 10%;
+    background: gold;
+    color: black;
+}
+
+body
+{
+    background: black;
+    color: red;
+}
+
+/* Con el numeral indicamos que le queremos dar estilo a un ID*/
+#nombre
+{
+    background: pink;
+}
+
+/* Con el caracter . podemos seleccionar una clase.*/
+.naranja
+{
+    color: orange;
+}
