@@ -1,0 +1,12 @@
+- Repasar BOOTSTRAP. 
+
+- Profundizar la función MAP.
+
+en el load de la pagina carga el primer combo box. 
+Después en función hago un filter según el pais elegido (Un filter de argentina por ejemplo)
+
+Con la función unique yo le paso un array y me devuelve un array con los elementos sin duplicados. 
+
+Poner un manejador al evento change, que cada vez que cargue, que haga un chance, se ejecute una función que traiga un array de ese pais, del array
+que tiene todas las privincias de esee país.
+
