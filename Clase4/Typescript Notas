@@ -1,0 +1,24 @@
+Caracteristicas faltantes de JS:
+- Tipos de variables. 
+- Errores en tiempo de escritura.
+- Auto completado dependiendo de la variable .
+- Metodo estatico de programacion 
+- Clases y modulos (Antes de ES6) .
+
+Sring:
+"Juan Pérez"
+'UTN FRA'
+`<h1>Hola mundo</h1>`
+
+Vamos a poder crear tipos nuevos, interfaces y tipos genericos. 
+
+Es básicamente un superconjunto de javascript, es decir que puedo usar lo mismo que escribo en javascript en typescript.
+
+El tipo de dato:
+El tipo de dato es para evitar errores. 
+Es un tipo de "REGLA". 
+
+Tipos de variables: 
+-> var tiene alcance global. 
+-> let tiene alcance limitado, según el bloque en el que se encuentra. 
+
