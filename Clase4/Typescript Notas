@@ -20,5 +20,10 @@ Es un tipo de "REGLA".
 
 Tipos de variables: 
 -> var tiene alcance global. 
--> let tiene alcance limitado, según el bloque en el que se encuentra. 
+-> let tiene alcance limitado, según el bloque en el que se encuentra.
 
+
+Declarar tipo de dato:
+let nombre:boolean = true; (Boolean es el tipo de dato.)
+let dinero:integer = 3;
+let esAquaman = true; (En este caso Typescript nos va a decir que si a Aquaman le querés poner un entero, te va a decir que no por que es bool)
