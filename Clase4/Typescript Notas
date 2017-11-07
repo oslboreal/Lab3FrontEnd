@@ -48,3 +48,40 @@ let:heroe:[string, number] = ["DrStrange", 100];
 
 Puedo declarar un Array donde el primer elemento sea del tipo String y el segundo del tipo number, pero si quiero asignar
 un valor común no me va a dejar, solo me va a dejar si los datos a cargar corresponde al tipo de dato.
+
+Enumeraciones:::::::::::::::::::::::::::::::
+enum Especialidades{
+    pediatra,
+    cardiologo,
+    clinico
+}
+
+Funciones básicas::::::::::::::::::::::::::
+let heroe:string = "flash";
+function imprime_heroe():string{
+    return heroe;
+}
+
+let activar_batisenal 0 function():string{
+    return "batiseñal activada";
+}
+
+console.log(imprime_heroe());
+console.log(activar_batisenal());
+
+Parámetros opcionales::::::::::::::::::::::::
+
+function nombreCompleto(nombre:string, apellido?:string):string{
+    if(apellido)
+    {
+        return nombre + '' + apellido;
+        else
+        return nombre;
+    }
+}
+
+Parámetros por defecto::::::::::::::::::::::::
+function nombreCompleto(nombre:string, apellido:string, capitalozado:boolean = false):string
+{
+ ... POR DEFECTO SI NO PASO EL TERCER PARAMETRO, POR DEFECTO VA A SER FALSE.
+}
