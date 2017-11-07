@@ -25,5 +25,26 @@ Tipos de variables:
 
 Declarar tipo de dato:
 let nombre:boolean = true; (Boolean es el tipo de dato.)
-let dinero:integer = 3;
+let dinero:number = 3; // Soporta tanto enteros como flotantes.
 let esAquaman = true; (En este caso Typescript nos va a decir que si a Aquaman le querés poner un entero, te va a decir que no por que es bool)
+
+Tipo de dato Any:
+let vengador:any = "Dr.Strange";
+vengador = 150; // Esto está perfecto y no tira error. 
+// Explicitamente lo llamamos como Any. 
+
+Arrays::::::::::::::::::::::::::::::::::::::
+
+Son iguales que js pero podemos definir que tipo de dato contienen.
+
+let vector = [1, 2 ,3, 4,5,6];
+
+let vector:number[] = [1,2,3];
+let vector:string[] = ["Yes", "no"];
+
+Tuplas::::::::::::::::::::::::::::::::::::::
+
+let:heroe:[string, number] = ["DrStrange", 100];
+
+Puedo declarar un Array donde el primer elemento sea del tipo String y el segundo del tipo number, pero si quiero asignar
+un valor común no me va a dejar, solo me va a dejar si los datos a cargar corresponde al tipo de dato.
