@@ -85,3 +85,11 @@ function nombreCompleto(nombre:string, apellido:string, capitalozado:boolean = f
 {
  ... POR DEFECTO SI NO PASO EL TERCER PARAMETRO, POR DEFECTO VA A SER FALSE.
 }
+
+Tipo Función::::::::::::::::::::::::::::::::::
+function sumar(a:number, b:number):number{
+    return a+b;
+}
+
+let miFuncion:(x:number, y:number)=>number;
+Aca estoy diciendo que mi función va a poder guardar funciones de ese tipo. 
