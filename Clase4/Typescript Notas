@@ -93,3 +93,17 @@ function sumar(a:number, b:number):number{
 
 let miFuncion:(x:number, y:number)=>number;
 Aca estoy diciendo que mi función va a poder guardar funciones de ese tipo. 
+
+Agregar referencia a un TS.
+
+/// <reference path="..." />
+
+Y además en el indice se tiene que llamar a esas funciones. 
+con script scr "validaciones/textos.js 
+si tuvieramos muchos ts habria que traer a todos, lo que se puede hacer para evitar eso 
+podríamos decirle por consola que el resultado de esto lo ponga en unico archivo de salida 
+
+typescript comando carpeta archivo  archivos a agregar 
+esto se tiene que hacer en el orden que se necesita, como se podra ver al final llamo a app.ts que depende de los dos anteriores
+
+tsc -outFile public/app.js validaciones/textos.ts validaciones/numeros.ts app.ts
