@@ -1,32 +1,49 @@
 // Tipos
-var batman = "Bruce";
-var superman = "Clark";
+var batman:string = "Batman";
+var superman:string = "Clark";
 
-var existe = false;
+var existe:boolean = false;
 
 // Tuplas
-var parejaHeroes = [batman,superman];
-var villano = ["Lex Lutor",5,true];
+var parejaHeroes:[string,string] = [batman,superman];
+var villano:[string,number,boolean] = ["Lex Lutor",5,true];
 
 // Arreglos
-var aliados = ["Mujer Maravilla","Acuaman","San", "Flash"];
+var aliados:string[] = ["Mujer Maravilla","Acuaman","San", "Flash"];
 
 //Enumeraciones
-var fuerzaFlash = 5;
-var fuerzaSuperman = 100;
-var fuerzaBatman = 1;
-var fuerzaAcuaman = 0;
+//var fuerzaFlash = 5;
+//var fuerzaSuperman = 100;
+//var fuerzaBatman = 1;
+//var fuerzaAcuaman = 0;
 
-// Retorno de funciones
-function activar_batiseñal(){
+enum caracteristicas{
+  fuerzaFlash = 5,
+  fuerzaSuperman = 100,
+  fuerzaBatman = 1,
+  fuerzaAcuaman = 0
+}
+
+// Retorno de funciones --> Se agrega :string para retornar un string.
+function activar_batiseñal():string{
   return "activada";
 }
 
+// ???????????????????????
+
 function pedir_ayuda(){
   console.log("Auxilio!!!");
+  Validaciones.contarCaracteres("test");
 }
 
-// Aserciones de Tipo
-var poder = "100";
-var largoDelPoder = poder.length;
-console.log( largoDelPoder );
+// PARA QUE LOS ELEMENTOS DENTRO DE UN NAMESPACE SE VEAN, ANTES DEL OS MODIFICADORES DE ACCESO TENGO QUE AGREGAR EXPORT.
+namespace Validaciones
+{
+  // Aserciones de Tipo
+  export var poder = "100";
+
+  export function contarCaracteres(poder:string){
+  var largoDelPoder = poder.length;
+  console.log( largoDelPoder );
+  }
+}
