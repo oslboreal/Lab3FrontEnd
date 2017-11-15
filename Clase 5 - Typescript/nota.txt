@@ -1,0 +1,36 @@
+El modelo de parcial es un AMB.. file///C users christian desktop abmlocal index. 
+
+Basicamente lo que tenemos que hacer es un abm.. 
+
+Vamos a tener una clase, esa clase va a tener atributos..
+EJ: Nombre, edad, patas, 
+Despues vamos a tener la clase mascota que hereda de animal  (Animal va a ser Abstracta. )
+
+Mascota le va agregar a los atributos de animal, ID y TIPO .. (Va a ser un enumerado.) con los distintos tipos. 
+
+Yo podria hacer que de acuerdo al tipo que seleccione en cantidad de patas me coloque 4... si es ave 2 y si es peces cero. 
+
+Las dos entidades van a tener un metodo que se va a llamar toJson que va a devolver un JSON de esa instancia. 
+
+Con super va a haber que sobreescribirlo... 
+
+TIP: El enumerado termina trabajando numeros... 
+
+Entonces lo que tienen que hacer es un ABM en el local storage.. 
+El local storage tiene: 
+- SET ITEM ()
+- GET ITEM ()
+- CLEAR ()
+
+Cuando almacenemos se va a guardar como STRING (Vamos a tneer que hacer un Stringify)
+Cuando vuelva va a haber que hacer un JSON DECODE y va a haber que guardarlo en el respectivo ARRAY. 
+
+- Entra bootstrap. 
+
+---> Animal.ts 
+---> Mascota.ts 
+---> Aplicacion.ts 
+El enumerado ---> Enumerado.ts
+
+Animal, mascota y enum en un mismo namespace. 
+La aplicacion no, debería poner EXPORT y todo eso. 
