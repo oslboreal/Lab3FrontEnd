@@ -34,3 +34,9 @@ El enumerado ---> Enumerado.ts
 
 Animal, mascota y enum en un mismo namespace. 
 La aplicacion no, debería poner EXPORT y todo eso. 
+
+Map.. Filter y Reduce... 
+- Nombre de todos los gatos ...
+- Filtrar y mapear. 
+
+BOTONES - COMBO - TABLAS 
