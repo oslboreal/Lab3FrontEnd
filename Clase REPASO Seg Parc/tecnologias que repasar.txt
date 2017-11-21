@@ -1,0 +1,23 @@
+++ Tecnologías a repasar ++
+
+--> Ver uso de Local storage.
+Las mascotas se cargan en el local storage.
+
+Id - Nombre - Edad - Tipo - Patas. 
+
+Opciones - Agregar, Modificar - Borrar - Limpiar local Storage.
+
+Filtros: Filtrar por: Tipo. 
+
+Promedio de edad (Es un botòn que calcula el promedio de las edades que se estan mostrando segun el filtro)
+
+Y con los checkbox tenemos mapeos.
+
+Tildamos o destildamos Id, nombre, edad, patas..
+
+En función de eso aparecen o no los campos en la lista. 
+
+En el manejador de Change de cada checkbox, tiene que llamar al método que mapee el array de mascotas que está en el local storage
+lo trae, lo mapea y cambia la tabla. 
+
+El filter se trae el array, hace un filter y cambia la tabla.
