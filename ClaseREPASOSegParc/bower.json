@@ -1,0 +1,17 @@
+{
+  "name": "claserepasosegparc",
+  "description": "",
+  "main": "mascotas.js",
+  "license": "ISC",
+  "homepage": "https://github.com/oslboreal/Lab3FrontEnd",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
